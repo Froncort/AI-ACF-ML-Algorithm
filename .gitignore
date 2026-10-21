@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+dist/
+build/
+
+# Env / secrets — never commit
+.env
+.env.*
+*.env
+service.json
+*-service.json
+*credentials*.json
+
+# Notebook / IDE
+.ipynb_checkpoints/
+.DS_Store
+.vscode/
+.idea/
+
+# Local run outputs (keep folder via .gitkeep)
+artifacts/*
+!artifacts/.gitkeep
+sample_data/*
+!sample_data/.gitkeep
+!sample_data/README.md
+
+# Large / binary
+*.pkl
+*.joblib
+*.parquet
+*.html
+*.log
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local knowledge-graph cache
+graphify-out/

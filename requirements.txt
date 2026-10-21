@@ -1,0 +1,30 @@
+# TB hotspot ML notebooks — research / educational use
+# Core path needs no cloud SDKs. Optional packages are commented below.
+
+pandas>=2.0.0
+numpy>=1.24.0
+pyarrow>=14.0.0
+
+h3>=3.7.0
+xgboost>=2.0.0
+scikit-learn>=1.5.0
+shap>=0.42.0
+scipy>=1.11.0
+
+matplotlib>=3.7.0
+seaborn>=0.12.0
+python-dateutil>=2.8.0
+tqdm>=4.66.0
+joblib>=1.3.0
+
+jupyter>=1.0.0
+nbconvert>=7.0.0
+
+# --- Optional: real-data geocoding (notebook 00, Path B) ---
+# V1 / production path — Google Maps Geocoding API (set GOOGLE_MAPS_API_KEY)
+# googlemaps>=4.10.0
+# Free fallback — OpenStreetMap Nominatim
+# geopy>=2.4.0
+
+# --- Optional: hexagon map HTML (notebook 06) ---
+# folium>=0.15.0
